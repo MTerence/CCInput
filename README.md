@@ -66,7 +66,7 @@
 
 拓展Target命名为`CustomKeyboard`
 <center class="half">
-    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c00bca112c6c4363ace5c8467af9e660~tplv-k3u1fbpfcp-watermark.image" width="800"/>
+    <img src="https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/c00bca112c6c4363ace5c8467af9e660%7Etplv-k3u1fbpfcp-watermark.png" width="800"/>
 </center>
 
 弹出`Activate “CustomKeyboard” scheme?` 选择`activate`
