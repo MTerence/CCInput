@@ -124,7 +124,7 @@
 这个问题的解决方案因为国内做键盘的公司比较少，百度搜索不到相关资料，附上stackoverflow链接
 [stackoverflow: iOS 8 Custom Keyboard: Changing the Height](https://stackoverflow.com/questions/24167909/ios-8-custom-keyboard-changing-the-height/25819565#25819565)
 
-![Demo效果.gif](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/861d3a744fa845269058c03639f77225~tplv-k3u1fbpfcp-watermark.image)
+![Demo效果.gif](https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/ScreenRecording_05-16-2021%2015-47-24.gif)
 
 同时附上Demo中代码
 
