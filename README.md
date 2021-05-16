@@ -1,5 +1,5 @@
 # CCInput
-一个简单的输入法键盘App Demo
+第三方输入法App开发原理调研及Demo
 
 > 前言
 >
