@@ -47,6 +47,7 @@
 		ABFBA67726512B6D00F7D55B /* 6749257-dc76fe330c4c6334.png in Resources */ = {isa = PBXBuildFile; fileRef = ABFBA66F26512B6D00F7D55B /* 6749257-dc76fe330c4c6334.png */; };
 		ABFBA67826512B6D00F7D55B /* IMG_2524.PNG in Resources */ = {isa = PBXBuildFile; fileRef = ABFBA67026512B6D00F7D55B /* IMG_2524.PNG */; };
 		ABFBA67926512B6D00F7D55B /* IMG_2525 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = ABFBA67126512B6D00F7D55B /* IMG_2525 3.PNG */; };
+		ABFBA67F26512BD100F7D55B /* ScreenRecording_05-16-2021 15-47-24.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABFBA67E26512BD100F7D55B /* ScreenRecording_05-16-2021 15-47-24.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +163,7 @@
 		ABFBA66F26512B6D00F7D55B /* 6749257-dc76fe330c4c6334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6749257-dc76fe330c4c6334.png"; sourceTree = "<group>"; };
 		ABFBA67026512B6D00F7D55B /* IMG_2524.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2524.PNG; sourceTree = "<group>"; };
 		ABFBA67126512B6D00F7D55B /* IMG_2525 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_2525 3.PNG"; sourceTree = "<group>"; };
+		ABFBA67E26512BD100F7D55B /* ScreenRecording_05-16-2021 15-47-24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ScreenRecording_05-16-2021 15-47-24.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +338,7 @@
 		ABFBA66926512B6C00F7D55B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				ABFBA67E26512BD100F7D55B /* ScreenRecording_05-16-2021 15-47-24.gif */,
 				ABFBA66A26512B6C00F7D55B /* app_extensions_container_restrictions_2x.png */,
 				ABFBA66B26512B6C00F7D55B /* WX20210514-200421@2x.png */,
 				ABFBA66C26512B6C00F7D55B /* IMG_2520.PNG */,
@@ -476,6 +479,7 @@
 				ABFBA67726512B6D00F7D55B /* 6749257-dc76fe330c4c6334.png in Resources */,
 				ABFBA67426512B6D00F7D55B /* IMG_2520.PNG in Resources */,
 				ABFBA67826512B6D00F7D55B /* IMG_2524.PNG in Resources */,
+				ABFBA67F26512BD100F7D55B /* ScreenRecording_05-16-2021 15-47-24.gif in Resources */,
 				ABFBA4D5264E9D9D00F7D55B /* LaunchScreen.storyboard in Resources */,
 				ABFBA4D2264E9D9D00F7D55B /* Assets.xcassets in Resources */,
 				ABFBA67226512B6D00F7D55B /* app_extensions_container_restrictions_2x.png in Resources */,
