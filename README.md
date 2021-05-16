@@ -1,6 +1,8 @@
 # CCInput 
 第三方输入法App开发原理调研及Demo
 
+![Demo效果.gif](https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/ScreenRecording_05-16-2021%2015-47-24.gif)
+
 > 前言
 >
 > 为啥我一个做社交、直播、图片后编辑方向的iOS开发突然想学输入法开发呢，这一切还得从我看到搜狗输入法的招聘JD说起....
@@ -58,22 +60,18 @@
 # 2. App搭建
 
 #### 2.1 创建一个名为InputApp的项目（为了练练手，我们采用OC编码，与链接内不同，后续我应该会创建Swift版本上传Github）
-<center class="half">
-    <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eed20d38c25a481ea8b650cf3d12ba37~tplv-k3u1fbpfcp-watermark.image" width="800"/>
-</center>
-
 #### 2.2 创建键盘Target
 
-拓展Target命名为`CustomKeyboard`
+拓展Extension命名为`CustomKeyboard`
 <center class="half">
-    <img src="https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/c00bca112c6c4363ace5c8467af9e660%7Etplv-k3u1fbpfcp-watermark.png" width="800"/>
+    <img src="https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/c00bca112c6c4363ace5c8467af9e660%7Etplv-k3u1fbpfcp-watermark.png" width="700"/>
 </center>
 
 弹出`Activate “CustomKeyboard” scheme?` 选择`activate`
 
 此时我们注意到，添加CustomKeyboard后，默认生成了一个类`KeyboardViewController`
 <center class="half">
-    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3fa6a1f237e4718b83eb0f95c853659~tplv-k3u1fbpfcp-watermark.image" width="800"/>
+    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a3fa6a1f237e4718b83eb0f95c853659~tplv-k3u1fbpfcp-watermark.image" width="700"/>
 </center>
 
 !!! 注意一个很容易忽视的问题：记得修改`CustomKeyboard` Target支持的最低版本，如果支持的最低版本高于设备版本，xcode编译时不会报错，但运行时这个target不会运行,添加`NotificationService时同样`有这个容易忽视的问题
@@ -123,8 +121,6 @@
 
 这个问题的解决方案因为国内做键盘的公司比较少，百度搜索不到相关资料，附上stackoverflow链接
 [stackoverflow: iOS 8 Custom Keyboard: Changing the Height](https://stackoverflow.com/questions/24167909/ios-8-custom-keyboard-changing-the-height/25819565#25819565)
-
-![Demo效果.gif](https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/ScreenRecording_05-16-2021%2015-47-24.gif)
 
 同时附上Demo中代码
 
