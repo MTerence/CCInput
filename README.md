@@ -1,7 +1,7 @@
 # CCInput 
 第三方输入法App开发原理调研及Demo
 
-![Demo效果.gif](https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/ScreenRecording_05-16-2021%2015-47-24.gif)
+![Demo效果](https://github.com/MTerence/CCInput/blob/main/InputApp/Resource/ScreenRecording.gif)
 
 > 前言
 >
