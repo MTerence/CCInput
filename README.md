@@ -15,7 +15,7 @@
 >> 3. 搜狗输入法App和搜狗输入法键盘两者之间有什么关联？ 如何关联？
 >> 4. 第三方输入法和逆向之间有什么关联？逆向知识能为输入法类App带来什么?
 
-如果你也有以上疑问，请耐心看下去(其实写到此处时能不能解答我也不知道...)
+如果你也有以上疑问，请耐心看下去
 
 本文目录:
 > 1. 调研着手
@@ -229,7 +229,7 @@ NSUserDefaults *mySharedDefaults = [[NSUserDefaults alloc] initWithSuiteName: @"
 [mySharedDefaults setObject:theAccountName forKey:@"lastAccountName"];
 ```
 
-# 4 输入法App和逆向(个人瞎猜，可能鲁迅人本身根本没这么想)
+# 4 输入法App和逆向
 
 通过上文`3.1` `3.2` `3.3`我们知道, 主App和Extension之间要想共享数据，必须开启完全访问通过App Groups的方式共享数据,对于一款键盘类App，他肯定是希望App和Extension能实现数据共享，以达到以下需求:
 
